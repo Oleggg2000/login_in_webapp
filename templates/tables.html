@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div>
+        <h3>{{continent1[0][4]}}</h3>
+        <table border="1">
+          <tbody>
+            {% for elem in continent1 %}
+            <tr>
+              <td>{{elem[0]}}</td>
+              <td>{{elem[1]}}</td>
+              <td>{{elem[2]}}</td>
+              <td>{{elem[3]}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
+    <div>
+        <h3>{{continent2[0][4]}}</h3>
+        <table border="1">
+          <tbody>
+            {% for elem in continent2 %}
+            <tr>
+              <td>{{elem[0]}}</td>
+              <td>{{elem[1]}}</td>
+              <td>{{elem[2]}}</td>
+              <td>{{elem[3]}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
+    <div>
+        <h3>{{continent3[0][4]}}</h3>
+        <table border="1">
+          <tbody>
+            {% for elem in continent3 %}
+            <tr>
+              <td>{{elem[0]}}</td>
+              <td>{{elem[1]}}</td>
+              <td>{{elem[2]}}</td>
+              <td>{{elem[3]}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
+    <div>
+        <h3>{{continent4[0][4]}}</h3>
+        <table border="1">
+          <tbody>
+            {% for elem in continent4 %}
+            <tr>
+              <td>{{elem[0]}}</td>
+              <td>{{elem[1]}}</td>
+              <td>{{elem[2]}}</td>
+              <td>{{elem[3]}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
+{% endblock content %}

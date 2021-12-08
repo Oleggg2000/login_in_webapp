@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div>
+        <h1 align="center">Страница авторизации</h1>
+    </div>
+    <form method="POST">
+        <div align="center">
+            <input type="text", placeholder="Email", name="email"/>
+        </div>
+        <div align="center">
+            <input type="password", placeholder="Password", name="password"/>
+        </div>
+        <div align="center">
+            <input type="submit" value="Отправить"/>
+        </div>
+    </form>
+{% endblock content %}

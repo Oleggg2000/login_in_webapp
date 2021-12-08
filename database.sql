@@ -1,0 +1,41 @@
+CREATE DATABASE continents;
+CREATE TABLE continents ( id BIGSERIAL NOT NULL PRIMARY KEY,
+city VARCHAR(50) NOT NULL,
+country VARCHAR(50) NOT NULL,
+population INTEGER, continent VARCHAR(50) NOT NULL);
+INSERT INTO continents (city, country, population, continent) VALUES ('Джакарта', 'Индонезия', '32275', 'Азия');
+INSERT INTO continents (city, country, population, continent) VALUES ('Токио', 'Япония', '38500', 'Азия');
+INSERT INTO continents (city, country, population, continent) VALUES ('Дели', 'ИНдия', '27280', 'Азия');
+INSERT INTO continents (city, country, population, continent) VALUES ('Манила', 'Филиппины', '24650', 'Азия');
+INSERT INTO continents (city, country, population, continent) VALUES ('Шанхай', 'Китай', '24115', 'Азия');
+INSERT INTO continents (city, country, population, continent) VALUES ('Мумбаи', 'Индия', '23265', 'Азия');
+INSERT INTO continents (city, country, population, continent) VALUES ('Пекин', 'Китай', '21200', 'Азия');
+INSERT INTO continents (city, country, population, continent) VALUES ('Гуанчжоу', 'Китай', '20060', 'Азия');
+INSERT INTO continents (city, country, population, continent) VALUES ('Осака', 'Япония', '17165', 'Азия');
+INSERT INTO continents (city, country, population, continent) VALUES ('Нью-Йорк', 'США', '21757', 'Америка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Сан-Пауло', 'Бразилия', '21100', 'Америка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Мехико', 'Мексика', '20500', 'Америка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Лос-Анджелес', 'США', '15620', 'Америка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Буэнос-Айрес', 'Аргентина', '15520', 'Америка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Лима', 'Перу', '11300', 'Америка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Чикаго', 'США', '9100', 'Америка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Даллас', 'США', '6600', 'Америка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Сан-Хосе', 'США', '6500', 'Америка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Каир', 'Египет', '16545', 'Африка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Лагос', 'Нигерия', '13900', 'Африка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Киншаса', 'Конго', '12500', 'Африка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Йоханнесбург', 'ЮАР', '9115', 'Африка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Луанда', 'Ангола', '7560', 'Африка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Найроби', 'Кения', '5700', 'Африка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Дар-эс-Салам', 'Танзания', '4980', 'Африка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Александрия', 'Египет', '4960', 'Африка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Гиза', 'Египет', '3300', 'Африка');
+INSERT INTO continents (city, country, population, continent) VALUES ('Москва', 'Россия', '16855', 'Европа');
+INSERT INTO continents (city, country, population, continent) VALUES ('Стамбул', 'Турция', '13995', 'Европа');
+INSERT INTO continents (city, country, population, continent) VALUES ('Париж', 'Франция', '10900', 'Европа');
+INSERT INTO continents (city, country, population, continent) VALUES ('Лондон', 'Великобритания', '10500', 'Европа');
+INSERT INTO continents (city, country, population, continent) VALUES ('Мадрид', 'Испания', '6385', 'Европа');
+INSERT INTO continents (city, country, population, continent) VALUES ('Милан', 'Италия', '5200', 'Европа');
+INSERT INTO continents (city, country, population, continent) VALUES ('Санкт-Петербург', 'Россия', '5175', 'Европа');
+INSERT INTO continents (city, country, population, continent) VALUES ('Анкара', 'Турция', '4850', 'Европа');
+INSERT INTO continents (city, country, population, continent) VALUES ('Барселона', 'Испания', '4840', 'Европа');
